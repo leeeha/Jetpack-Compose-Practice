@@ -29,7 +29,7 @@ import androidx.navigation.compose.rememberNavController
 
    NavHost: 빈 컨테이너. 프래그먼트들이 들어가게 되는 자리
    NavController: NavHost 자리에 프래그먼트들을 들여보내거나 내보내면서, 네비게이션을 관리하는 객체
- */
+*/
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
