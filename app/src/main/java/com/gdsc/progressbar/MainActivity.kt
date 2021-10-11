@@ -1,4 +1,4 @@
-package com.gdsc.sessionassignment
+package com.gdsc.progressbar
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
