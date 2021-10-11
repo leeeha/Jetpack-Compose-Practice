@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun MainScreen() {
-    var progressCount by remember { mutableStateOf(0.0f)}
+    var progressCount by remember { mutableStateOf(0.0f) }
     val progressCountAnimation by animateFloatAsState(
         targetValue = progressCount,
         tween(
