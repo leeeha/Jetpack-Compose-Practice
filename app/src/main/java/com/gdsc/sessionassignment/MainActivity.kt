@@ -13,7 +13,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.gdsc.sessionassignment.ui.theme.SessionAssignmentTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -66,12 +65,4 @@ fun ProgressBarText(progressCount: Float) {
 @Composable
 fun LinearProgressBar(progressCountAnimation: Float) {
     LinearProgressIndicator(progress = progressCountAnimation / 10)
-}
-
-@Preview(showBackground = true)
-@Composable
-fun DefaultPreview() {
-    SessionAssignmentTheme() {
-
-    }
 }
